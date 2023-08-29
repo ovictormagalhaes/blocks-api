@@ -1,0 +1,17 @@
+{
+    "Id": 3,
+    "BlockOrder": 3,
+    "HeadlineText": "Our Services",
+    "DisplayStatus": true,
+    "Icon": "fa-wrench",
+    "ButtonEvent": "servicesButtonClicked",
+    "ServiceName": "Web Development",
+    "ServiceDescription": "Creating modern websites",
+    "ServiceImage": "web-development.jpg",
+    "ServiceCtaButton": {
+        "Text": "Explore",
+        "DisplayStatus": true,
+        "Icon": "fa-arrow-circle-right",
+        "ButtonEvent": "exploreWebDevButtonClicked"
+    }
+}

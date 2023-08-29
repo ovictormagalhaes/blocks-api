@@ -1,0 +1,20 @@
+{
+    "Id": 1,
+    "BlockOrder": 1,
+    "BusinessName": "My Business",
+    "LogoHidden": false,
+    "NavigationMenu": [
+        "Home",
+        "Services",
+        "Contact"
+    ],
+    "CtaButtonText": {
+        "Text": "Learn More",
+        "DisplayStatus": "Details",
+        "Icon": "fa-arrow-right",
+        "ButtonEvent": "learnMoreButtonClicked"
+    },
+    "DisplayStatus": true,
+    "Icon": "fa-building",
+    "ButtonEvent": "headerButtonClicked"
+}

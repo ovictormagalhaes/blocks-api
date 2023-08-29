@@ -1,0 +1,11 @@
+{
+    "Id": 2,
+    "BlockOrder": 2,
+    "HeadlineText": "Welcome to our Website",
+    "DisplayStatus": true,
+    "Icon": "fa-star",
+    "ButtonEvent": "heroButtonClicked",
+    "HeroImage": "hero-image.jpg",
+    "ImageAlignment": "TopCenter",
+    "ContentAlignment": "MiddleCenter"
+}
