@@ -140,49 +140,5 @@ namespace Application.Controllers
 
             return NotFound("Not found blocks for this id");
         }
-
-
-        /*     
-                [HttpPut("UpdateBlock")]
-                public IActionResult UpdateBlock(string key, string blockId, [FromBody] Block updatedBlock)
-                {
-                    if (_pageModels.ContainsKey(key))
-                    {
-                        var pageModel = _pageModels[key];
-                        var blockToUpdate = pageModel.Blocks.Find(b => b.Id == blockId);
-                        if (blockToUpdate != null)
-                        {
-                            // Update the block properties
-                            blockToUpdate.HeadlineText = updatedBlock.HeadlineText;
-                            blockToUpdate.DisplayStatus = updatedBlock.DisplayStatus;
-                            blockToUpdate.Icon = updatedBlock.Icon;
-                            blockToUpdate.ButtonEvent = updatedBlock.ButtonEvent;
-
-                            // Update other specific properties based on block type
-                            // ...
-
-                            return Ok("Block updated successfully.");
-                        }
-                        return NotFound("Block not found.");
-                    }
-                    return NotFound("Model not found.");
-                }
-
-                [HttpDelete("RemoveBlock")]
-                public IActionResult RemoveBlock(string key, string blockId)
-                {
-                    if (_pageModels.ContainsKey(key))
-                    {
-                        var pageModel = _pageModels[key];
-                        var blockToRemove = pageModel.Blocks.Find(b => b.Id == blockId);
-                        if (blockToRemove != null)
-                        {
-                            pageModel.Blocks.Remove(blockToRemove);
-                            return Ok("Block removed successfully.");
-                        }
-                        return NotFound("Block not found.");
-                    }
-                    return NotFound("Model not found.");
-                }*/
     }
 }
